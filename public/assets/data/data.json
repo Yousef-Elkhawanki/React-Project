@@ -1,0 +1,24 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "productName": "Product 1",
+            "image": "/assets/gym/3.jpg",
+            "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+            "oldPrice": 3000,
+            "newPrice": 2000,
+            "onSale": true,
+            "topSale": true
+        },
+        {
+            "id": 2,
+            "productName": "Product 2",
+            "image": "/assets/hat/3.jpg",
+            "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+            "oldPrice": 3000,
+            "newPrice": null,
+            "onSale": false,
+            "topSale": false
+        }
+    ]
+}

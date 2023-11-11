@@ -1,0 +1,44 @@
+@import "./variables.scss";
+@import "./components/navbar.scss";
+@import "./components/banner.scss";
+@import "./components/pageBanner.scss";
+@import "./components/card.scss";
+@import "./components/shop.scss";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 920px) {
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 2.5vw;
+  }
+  .container {
+    padding-inline: 2rem !important;
+  }
+}
+@media (max-width: 420px) {
+}
+h1 {
+  font-family: $ff-header;
+}
+body {
+  font-family: $ff-main;
+}
+img {
+  object-fit: fill;
+}
+.container {
+  padding-inline: 6.25rem;
+}
+a {
+  color: $white;
+  text-decoration: none;
+}
