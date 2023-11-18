@@ -18,6 +18,7 @@ export const ToggleMenu = ({ isActive, setIsActive }) => {
       </div>
       {links.map((link) => (
         <NavLink
+          key={link.label}
           to={link.path}
           className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""

@@ -4,13 +4,16 @@
 @import "./components/pageBanner.scss";
 @import "./components/card.scss";
 @import "./components/shop.scss";
+@import "./components/wishList.scss";
+@import "./components/login.scss";
+@import "toastr";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 html {
-  font-size: 16px;
+  font-size: 0.843vw;
 }
 @media (max-width: 1024px) {
 }
@@ -41,4 +44,37 @@ img {
 a {
   color: $white;
   text-decoration: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.error-message span {
+  color: red;
+  font-size: 0.8rem;
+}
+
+.loader {
+  animation: 5s loader infinite alternate;
+  @keyframes loader {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.pending {
+  background: red;
 }

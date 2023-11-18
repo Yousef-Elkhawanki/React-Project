@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { AiFillStar, AiOutlineEye, AiOutlineHeart } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 export const Card = ({
   productName,
   description,
@@ -9,19 +10,26 @@ export const Card = ({
   oldPrice,
   discount,
   id,
+  customeOnClick,
+  addCart,
 }) => {
+  const navigate = useNavigate();
+
   return (
-    <Link to={`/Shop/singleItem/${id}`} className="card">
+    <div className="card">
       <div className="card-container">
         <h5>{productName}</h5>
         <p>{description}</p>
         <div className="image-card">
           <img src={img} alt="" />
           <div className="icons">
-            <div className="icon">
+            <div className="icon" onClick={customeOnClick}>
               <AiOutlineHeart />
             </div>
-            <div className="icon">
+            <div
+              className="icon"
+              onClick={() => navigate(`/Shop/singleItem/${id}`)}
+            >
               <AiOutlineEye />
             </div>
           </div>
@@ -40,9 +48,9 @@ export const Card = ({
           </div>
         </div>
       </div>
-      <div className="btn">
+      <div className="btn" onClick={addCart}>
         <button>Add To Cart</button>
       </div>
-    </Link>
+    </div>
   );
 };

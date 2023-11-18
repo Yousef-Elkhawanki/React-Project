@@ -1,24 +1,226 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "productName": "Product 1",
-            "image": "/assets/gym/3.jpg",
-            "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
-            "oldPrice": 3000,
-            "newPrice": 2000,
-            "onSale": true,
-            "topSale": true
-        },
-        {
-            "id": 2,
-            "productName": "Product 2",
-            "image": "/assets/hat/3.jpg",
-            "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
-            "oldPrice": 3000,
-            "newPrice": null,
-            "onSale": false,
-            "topSale": false
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "productName": "Gym Tool",
+      "image": "/assets/gym/3.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": 2000,
+      "onSale": true,
+      "topSale": true,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productName": "Winter Hat",
+      "image": "/assets/hat/3.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": false,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "productName": "New Hat",
+      "image": "/assets/hat/1.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 1500,
+      "newPrice": 500,
+      "onSale": true,
+      "topSale": false,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "productName": "Hat",
+      "image": "/assets/hat/4.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": true,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "productName": "Gym Bike",
+      "image": "/assets/gym/6.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": true,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "productName": "Gym Stratch Tool",
+      "image": "/assets/gym/2.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": true,
+      "brand": "addids",
+      "stock": 0,
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "productName": "Girls Gym Tool",
+      "image": "/assets/gym/4.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": true,
+      "brand": "addids",
+      "stock": 0,
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "productName": "Product 8",
+      "image": "/assets/shoes/1.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 1200,
+      "newPrice": 1000,
+      "onSale": true,
+      "topSale": true,
+      "brand": "addids",
+      "stock": 0,
+      "quantity": 1
+    },
+    {
+      "email": "yousef@gmail.com",
+      "password": "$2a$10$epjKNFCIT/iGDlHmE5Kjg.mkS.lcog.IWbVle0QBANkUXTxjZaNt6",
+      "id": 9
+    }
+  ],
+  "add-cart": [
+    {
+      "id": 1,
+      "productName": "Gym Tool",
+      "image": "/assets/gym/3.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": 2000,
+      "onSale": true,
+      "topSale": true,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productName": "Winter Hat",
+      "image": "/assets/hat/3.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": false,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "productName": "New Hat",
+      "image": "/assets/hat/1.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 1500,
+      "newPrice": 500,
+      "onSale": true,
+      "topSale": false,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 90,
+      "productName": "Product 18",
+      "image": "/assets/shoes/1.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 1200,
+      "newPrice": 1000,
+      "onSale": true,
+      "topSale": true,
+      "brand": "addids",
+      "stock": 0
+    }
+  ],
+  "wishList": [
+    {
+      "id": 2,
+      "productName": "Winter Hat",
+      "image": "/assets/hat/3.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": null,
+      "onSale": false,
+      "topSale": false,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "productName": "Gym Tool",
+      "image": "/assets/gym/3.jpg",
+      "description": "used to refer to one or some of a thing or number of things, no matter how much or how many.I don't have any choice",
+      "oldPrice": 3000,
+      "newPrice": 2000,
+      "onSale": true,
+      "topSale": true,
+      "brand": "nike",
+      "stock": 5,
+      "quantity": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "yousef@gmail.com",
+      "password": "$2a$10$epjKNFCIT/iGDlHmE5Kjg.mkS.lcog.IWbVle0QBANkUXTxjZaNt6",
+      "id": 1
+    },
+    {
+      "email": "mustaf@gmail.com",
+      "password": "$2a$10$KlTMuaHp.hBy9hFopn0QoOKz9HBfjswsANeO7Z2BjYr12JSmrG6Ka",
+      "id": 2
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$TjSwM4bYMz2fcEXpvEFuye3r3YokOOlg92gy0QuZFEokLLBhLqHW6",
+      "id": 3
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$viS1ea4on6cJgZB1o2aC3ebGw0NY3EoaHciW5JDOQfteltKhELplu",
+      "id": 4
+    },
+    {
+      "email": "yousef2@gmail.com",
+      "password": "$2a$10$a.jkiWd4DYOQbkkyyV8fW.RGUOFUhJc8myVZgvIXihUV68.ZY2pBm",
+      "id": 5
+    },
+    {
+      "email": "yousef3@gmail.com",
+      "password": "$2a$10$3y2J4KM6IlrY./6ffC2BIer6Pe4wi7n6c4gRZA01t/SeLyrTn8zmK",
+      "id": 6
+    }
+  ]
 }

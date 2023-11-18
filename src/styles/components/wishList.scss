@@ -1,0 +1,27 @@
+.wishList-container {
+  min-height: 50vh;
+  .cartEmpty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    h4 {
+      font-size: 2.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 1.62rem;
+    }
+    a {
+      display: flex;
+      height: 5.25rem;
+      padding: 1.4375rem 7rem 1.375rem 7.0625rem;
+      justify-content: center;
+      align-items: center;
+      background: $dark;
+      color: $white;
+      border: 0;
+    }
+  }
+}

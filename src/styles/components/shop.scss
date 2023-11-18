@@ -1,8 +1,192 @@
 .shop-container {
-  padding: 2rem 0;
+  padding: 2.94rem 0;
+  background: #ececec;
   .container {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
+    .filtretion {
+      border: 0.5px solid rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
+      width: 22.1875rem;
+      background: $white;
+      height: 47.0625rem;
+      .Filteration-header {
+        padding: 1.44rem 1.25rem;
+        position: relative;
+        &::after {
+          content: "";
+          width: 100%;
+          height: 0.1rem;
+          background: rgba(0, 0, 0, 0.2);
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+        h4 {
+          font-size: 1.5rem;
+          font-weight: 500;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      width: 52rem;
+      .card {
+        width: calc((100% / 2) - 2rem);
+      }
+    }
+  }
+}
+
+.singleItemDetails {
+  .container {
+    padding: 9.62rem 6.25rem;
+    .item {
+      position: relative;
+      margin: auto;
+      border-radius: 2rem;
+      border: 2px solid rgba(0, 0, 0, 0.2);
+      background: #fff;
+      width: 77.5rem;
+      padding: 1rem;
+      gap: 3.44rem;
+      min-height: 50vh;
+      display: flex;
+      .image {
+        width: 31.25rem;
+        height: 36rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: unset;
+        }
+      }
+      .item-details {
+        width: 39.3125rem;
+        position: relative;
+        padding: 3rem 0;
+        &::after {
+          content: "";
+          width: 33rem;
+          height: 0.0625rem;
+          background: rgba(0, 0, 0, 0.2);
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        h4 {
+          font-family: Inter;
+          font-size: 2rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+        p {
+          color: rgba(0, 0, 0, 0.5);
+          margin: 0.81rem 0 0.56rem;
+          font-family: Inter;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 1.5;
+        }
+        span {
+          color: #f00;
+          font-family: Inter;
+          font-size: 0.875rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          text-transform: uppercase;
+        }
+        .price {
+          margin-top: 2.12rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          span.discount {
+            margin-right: 0.5rem;
+            font-weight: bold;
+            color: red;
+            margin-right: 0.5rem;
+          }
+          .rate {
+            svg {
+              color: $gold;
+            }
+          }
+        }
+        .quantity {
+          display: flex;
+          margin: 1.63rem 0;
+          button {
+            display: flex;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0.5rem 0.8125rem 0.4375rem 0.8125rem;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            cursor: pointer;
+          }
+          input {
+            // border: 0;
+            width: 3rem;
+            padding-inline: 1rem;
+            &:focus {
+              outline: 0;
+            }
+            .text-field-container {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+          }
+        }
+        .btns {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          button {
+            display: flex;
+            padding: 0.875rem 4.1875rem 0.8125rem 4.4375rem;
+            justify-content: flex-end;
+            align-items: center;
+            background: $dark;
+            color: $white;
+            border: 0;
+            font-family: Inter;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 700;
+            cursor: pointer;
+          }
+        }
+        .addWishList {
+          display: flex;
+          align-items: center;
+          gap: 0.94rem;
+          cursor: pointer;
+          h6 {
+            color: #000;
+            font-family: Inter;
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 300;
+          }
+          svg {
+            width: 1.42463rem;
+            height: 1.2875rem;
+          }
+        }
+      }
+    }
   }
 }

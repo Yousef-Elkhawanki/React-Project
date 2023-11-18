@@ -12,7 +12,6 @@ import { Menu } from "./Menu";
 import { ToggleMenu } from "./ToggleMenu";
 export const MobileNabar = () => {
   const [isActive, setIsActive] = useState(false);
-  console.log(isActive);
   const toggleMenu = () => {
     setIsActive(true);
   };

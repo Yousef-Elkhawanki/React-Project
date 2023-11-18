@@ -5,7 +5,6 @@ export const isMobileContext = createContext();
 function IsMobileProvider({ children }) {
   const [isMobile, setIsMobile] = useState();
   const isMobileHandler = (e) => {
-    console.log(e.matches);
     setIsMobile(e.matches);
   };
   useEffect(() => {
